@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 bg-background text-body text-text-primary antialiased;
+}
+
+* {
+  @apply box-border;
+}
