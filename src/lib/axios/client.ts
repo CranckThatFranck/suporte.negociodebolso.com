@@ -2,7 +2,7 @@ import axios from 'axios'
 import { clearSession, getToken } from '../storage/session'
 
 export const apiClient = axios.create({
-  baseURL: 'https://api.negóciodebolso.com/api/v1/admin',
+  baseURL: 'https://api.xn--negciodebolso-dlb.com/api/v1/admin',
   timeout: 20000,
   headers: {
     'Content-Type': 'application/json',
